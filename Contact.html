@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> CHRINA LTD-CONTACT</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+        <link rel="stylesheet" href="generalstyle.css">
+        <link rel="stylesheet" href="Contact.css">
+        <link rel="icon" href="pictures/chrina  logo.jpg">
+    </head>
+    <body>
+        <section id="header">
+            <a href="#"><img src="pictures/shop icon.png"  class="logo"  alt="logo"></a>
+            <div>
+
+                <ul id="navbar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="items.html">Items</a></li>
+                    <li><a href="Shopping.html">Shopping</a></li>
+                    <li><a href="Contact.html" class="souligne">Contact</a></li>
+                    
+                </ul>
+            </div>
+
+        </section>
+        <section class="contact">
+            <div class="content">
+                <h2>Contact Us</h2>
+                <p>Welcome to CHRINA LTD! Your go-to store for the latest sneakers. Have questions, need help with an order, or want to share feedback? Fill out the form below, and we’ll get back to you quickly!</p>        </div>
+                <div class="contactForm">
+                    <form id="contactForm" onsubmit="return validateForm()">
+                        <h2>Send Message</h2>
+                        <div class="inputBox">
+                            <input type="text" id="fullName" name="fullName" required="required">
+                            <span>Full Name</span>
+                            <span id="fullNameError" class="error"></span>
+                        </div>
+                        <div class="inputBox">
+                            <input type="email" id="email" name="email" required="required">
+                            <span>Email</span>
+                            <span id="emailError" class="error"></span>
+                        </div>
+                        <div class="inputBox">
+                            <textarea id="message" name="message" required="required"></textarea>
+                            <span>Type your Message...</span>
+                            <span id="messageError" class="error"></span>
+                        </div>
+                        <div class="inputBox">
+                            <input type="submit" value="Send">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <a href="pictures/progress rep.png" class="blinking-link" target="_blank">clic me to view the Progress report</a>
+        
+        
+    </body>
+</html>
